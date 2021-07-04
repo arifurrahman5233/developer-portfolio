@@ -7,10 +7,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: tomato;
 }
-section{
+.welcome{
     display: flex;
     margin-bottom: 150px;
     
@@ -33,7 +36,7 @@ section{
     border-radius: 5px;
     background-image: linear-gradient(tomato, orange);
 }
-.welcome{
+.first-bar-welcome-image{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -41,4 +44,33 @@ section{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+  
+}
+.Experience{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    
+    
+
+}
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue , cyan );
+    border-image-slice: 1;
+
+}
+#web-developer-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient( tomato , purple );
+    border-image-slice: 1;
+
 }
